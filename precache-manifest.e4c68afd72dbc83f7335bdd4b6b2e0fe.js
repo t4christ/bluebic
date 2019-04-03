@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/bluebic/static/css/main.5debecfb.chunk.css"
   },
   {
-    "revision": "014988e721a9d9ee13f8ca3ba9d0fc10",
+    "revision": "f0c13719d812ef641370329380ec3f62",
     "url": "/bluebic/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bluebic/precache-manifest.6b822d743c3e0c1322d65a8814e79e53.js"
+  "/bluebic/precache-manifest.e4c68afd72dbc83f7335bdd4b6b2e0fe.js"
 );
 
 workbox.clientsClaim();
