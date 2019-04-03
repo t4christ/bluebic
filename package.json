@@ -2,7 +2,7 @@
   "name": "bluebic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://t4christ.github.io/onboarding-1",
+  "homepage": "https://t4christ.github.io/bluebic/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "materialize-css": "^1.0.0-rc.2",

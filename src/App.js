@@ -18,8 +18,8 @@ class App extends Component {
                             <div>
                                 
                         <Switch>
-                              
-                                <Redirect exact from="/" to="/onboarding-1"/>
+                                <Redirect  from="/bluebic" to="/onboarding-1"/>
+                                <Redirect  from="/" to="/onboarding-1"/>
                                 <Route exact path="/onboarding-1" component={OnboardingOne} />
                                 <Route  path="/onboarding-2" component={OnboardingTwo} />
                                 <Route  path="/signup" component={SignUp} />
