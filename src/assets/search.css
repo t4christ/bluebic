@@ -1,0 +1,14 @@
+.nav-wrapper .input-field input[type=search] {
+    height: 64px;
+    
+  }
+  .nav-wrapper input[type="search"]:focus {
+    position: fixed;
+    top: 0;
+    left: 30%;
+    width: 30%;
+  }
+
+  nav .input-field label.active{
+      display:none;
+  }

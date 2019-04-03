@@ -1,0 +1,119 @@
+/* Onboarding-1 */
+
+.onbarding-1{
+background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+}
+
+.ellipse{
+position: absolute;
+left: 15%;
+right: 85.6%;
+top: 4.93%;
+bottom: 85.84%;
+background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
+border-radius: 50%;
+height:50px;
+width:50px;
+}
+
+
+.ellipse-2{
+position: absolute;
+left: 81.6%;
+right: 0%;
+top: 4.93%;
+bottom: 85.84%;
+background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+transform: rotate(-15.82deg);
+border-radius: 50%;
+height:50px;
+width:50px;
+}
+
+.book-logo{
+
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    left: 0;
+    top: 8%;
+    background: linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.vector{
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 6.25%;
+    bottom: 6.25%;
+    background: linear-gradient(180deg, whitesmoke 0%, whitesmoke 100%);
+    width: 80px;
+    margin: auto;
+    height: 62px;
+    
+}
+
+
+/* Read Book */
+.read-book{
+margin-top:47%;
+font-family: Circular Std;
+font-size: 32px;
+line-height: normal;
+text-align: center;
+color: #384F7D;
+}
+
+
+
+/* Get Started */
+.g-started{
+
+
+font-family: Circular Std;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: rgba(56, 79, 125, 0.8);
+}
+
+
+/* Pre-Arrow Wrapper */
+.pre-arrowwrap{
+margin: auto;
+margin-left: 0;
+width: 36px;
+height: 12px;
+background: #8EF15C;
+border-radius: 11111px;
+}
+
+
+
+/* Arrow Wrapper */
+
+.arrow-wrap{
+width: 48px;
+height: 48px;
+background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
+border-radius: 8px;
+margin-left:auto;
+}
+
+
+/* Skip Intro */
+
+.skip-intro{
+
+margin-top:15%;
+font-family: Circular Std;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+text-decoration-line: underline;
+color: #445984;
+}

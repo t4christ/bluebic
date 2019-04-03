@@ -1,0 +1,101 @@
+/* Onboarding-1 */
+
+.signup{
+
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    }
+    
+    .ellipse{
+    position: absolute;
+    left: 15%;
+    right: 85.6%;
+    top: 4.93%;
+    bottom: 85.84%;
+    background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    }
+    
+    
+    .ellipse-2{
+    position: absolute;
+    left: 81.6%;
+    right: 0%;
+    top: 4.93%;
+    bottom: 85.84%;
+    background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+    transform: rotate(-15.82deg);
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    }
+    
+    .signup-logo{
+    
+        position: absolute;
+        width: 212px;
+        height: 212px;
+        left: 0;
+        top: 8%;
+        background: linear-gradient(141.64deg, #FFF17C -3.59%, #FF8B8E 118.04%);
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+    
+    .signup-vector{
+        position: absolute;
+        left: 0px;
+        right: 0;
+        top: 6.25%;
+        bottom: 6.25%;
+  
+        width: 80px;
+        margin: auto;
+        height: 62px;
+        
+    }
+    
+     /* Signup Heading */
+     .s-heading{
+        margin-top:47%;
+        font-family: Circular Std;
+        font-size: 32px;
+        line-height: normal;
+        text-align: center;
+        color: #384F7D;
+        }
+        
+        
+        
+        /* Signup Paragraph */
+        .s-paragraph{
+        
+        
+        font-family: Circular Std;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: rgba(56, 79, 125, 0.8);
+        }
+
+
+.b-signup{
+background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+border-radius: 8px;
+font-weight:bold;
+
+}
+
+    /* label focus color */
+ .input-field input:focus + label {
+    color:#9e9e9e !important;
+  }
+
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid#00D23A !important;
+    box-shadow: 0 1px 0 0#00D23A !important
+  }

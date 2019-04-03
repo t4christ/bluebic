@@ -1,0 +1,58 @@
+.thankyou{
+
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    }
+
+
+    .thank-logo{
+    
+        position: absolute;
+        width: 212px;
+        height: 212px;
+        left: 0;
+        top: 20%;
+        background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+    
+    .thank-vector{
+        position: absolute;
+        left: 0px;
+        right: 0;
+        top: 6.25%;
+        bottom: 6.25%;
+  
+        width: 80px;
+        margin: auto;
+        height: 62px;
+        
+    }
+
+
+      
+     /* Thank you Heading */
+     .t-heading{
+        margin-top:47%;
+        font-family: Circular Std;
+        font-size: 32px;
+        line-height: normal;
+        text-align: center;
+        color: #384F7D;
+        }
+        
+        
+        
+        /* Thank you Paragraph */
+        .t-paragraph{
+        
+        
+        font-family: Circular Std;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: rgba(56, 79, 125, 0.8);
+        }
+

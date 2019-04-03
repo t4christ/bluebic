@@ -1,28 +1,44 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom';
+import OnboardingOne from './bluebic/onboarding-1';
+import OnboardingTwo from './bluebic/onboarding-2';
+import SignUp from './bluebic/signup';
+import ThankYou from './bluebic/thankyou';
+import BookReview from './bluebic/bookreview';
+import AddBookReview from './bluebic/addbookreview';
+import NotFound from './bluebic/notfound';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+
+
+                        <Router>
+                            <div>
+                                
+                        <Switch>
+                              
+                                <Redirect exact from="/" to="/onboarding-1"/>
+                                <Route exact path="/onboarding-1" component={OnboardingOne} />
+                                <Route  path="/onboarding-2" component={OnboardingTwo} />
+                                <Route  path="/signup" component={SignUp} />
+                                <Route  path="/thank_you" component={ThankYou} />
+                                <Route  path="/book_review" component={BookReview} />
+                                <Route  path="/add_book_review" component={AddBookReview} />
+                                <Route component={NotFound} />
+                                </Switch>
+                            </div>
+                        </Router>
+                 
+    
+  )
 }
+}
+
+
+
+
+
 
 export default App;

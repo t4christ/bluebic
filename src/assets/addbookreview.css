@@ -1,0 +1,45 @@
+
+.book_review{
+
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    }    
+  
+  .card-action{
+      border:none!important;
+  }
+
+  /* Add Book Review Heading */
+     .abr-heading{
+        margin-top:1%;
+        font-family: Circular Std;
+        font-size: 32px;
+        line-height: normal;
+        text-align: left;
+        color: #384F7D;
+        }
+        
+        
+        
+        /* Add Book Review Paragraph */
+        .abr-paragraph{
+        
+        
+        font-family: Circular Std;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left;
+        color: rgba(56, 79, 125, 0.8);
+        }
+
+/* Full Synopsis */
+.full-synopsis{
+
+    margin-top:1%;
+    font-family: Circular Std;
+    font-size: 16px;
+    line-height: normal;
+    text-align: left;
+    text-transform: none!important;
+    text-decoration-line: underline;
+    color: #445984!important;
+    }
